@@ -1,0 +1,81 @@
+<!doctype html>
+	<head>
+		<style>
+			body {
+			    padding:20px;
+			}
+			input {
+			    padding: 5px;
+			    background-color: transparent;
+			    border: none;
+			    border-bottom: solid 4px #A98064;
+			    width: 250px;
+			    font-size: 16px;
+			}
+			select {
+				padding: 5px;
+			    background-color: transparent;
+			    border: none;
+			    border-bottom: solid 4px #A98064;
+			    width: 260px;
+			    font-size: 16px;
+			}
+			.submit {
+			    background-color:#A98064;
+			    padding:8px;
+			    color:white;
+			    cursor:pointer;
+			}
+		</style>
+		
+		<title>TicketBari.com</title>
+	</head>
+	<body>
+		<h3>Book Ticket</h3>
+        <div><input id="t_id" type="text" placeholder="Ticket ID"/></div>
+        <br/>
+		<div><input id="t_name" type="text" placeholder="Enter Your Name"/></div>
+        <br/>
+		<div><input id="age" type="number" placeholder="Enter Your Age"/></div>
+        <br/>
+		<div><input id="t_date" type="date"/></div>
+        <br/>
+		<div>
+			<select id="t_time" placeholder="Select Timing">
+				<option value="morning">Morning</option>
+				<option value="afternoon">Afternoon</option>
+				<option value="noon">Noon</option>
+			</select>
+		</div>
+		<br>
+        <div>
+            <button class="submit" onclick="generateQRCode()">Book</button>
+        </div>
+        <br/>
+        <p id="qr-result">Your QR Ticket:</p>
+        <canvas id="qr-code"></canvas>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/qrious/4.0.2/qrious.min.js"></script>
+		<script>
+			var qr;
+			(function() {
+                    qr = new QRious({
+                    element: document.getElementById('qr-code'),
+                    size: 200
+                });
+            })();
+            
+            function generateQRCode() {
+                var qrtext = document.getElementById("t_id").value;
+                document.getElementById("qr-result").innerHTML = "Your QR Ticket: " + qrtext +":";
+                alert(qrtext);
+                qr.set({
+                    foreground: 'black',
+                    size: 200,
+                    value: qrtext
+                });
+            }
+		</script>
+        
+	</body>
+</html> 
