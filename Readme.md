@@ -21,3 +21,5 @@ For booking tickets, the user can navigate to Plan Your Visit section and then s
 After selecting the city, the user will have to select the place i.e. the monument or museum of visit.
 After location selection, the user will be entering the his/her details, date and time of visit, number of tickets, etc.
 Finally the user will be redirected to the payment gateway and after the successfull payment transaction, the user will receive his/her ticket QR code. 
+
+### Figma Link: https://www.figma.com/file/8taFXuJBBJICw1xqvQXF4J/TicketBari.com?node-id=0%3A1
