@@ -23,3 +23,9 @@ After location selection, the user will be entering the his/her details, date an
 Finally the user will be redirected to the payment gateway and after the successfull payment transaction, the user will receive his/her ticket QR code. 
 
 ### Figma Link: https://www.figma.com/file/8taFXuJBBJICw1xqvQXF4J/TicketBari.com?node-id=0%3A1
+
+## Team Members:
+1. Shail Shah
+2. Shivam Chavda
+3. Shlok Kadakia
+4. Vijay Vaghela
