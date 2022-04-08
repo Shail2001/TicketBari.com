@@ -1,16 +1,16 @@
-##Project Name: TicketBari.com
+## Project Name: TicketBari.com
 
-#Statement
+# Statement
 Ticketless Entry System to Monuments/Museums
 
-#Description
+# Description
 An e-ticket (electronic ticket) is a paperless electronic document used for ticketing. It can help in better crowd management of museums/heritage sites.
 Summary: To devise a QR based ticketing system with necessary hardware for the seamless visitor experience in Museums/Heritage sites. In addition, the prediction of the expected crowd should be added as a feature.
 
-#Objective
+# Objective
 It reduces booking expenses by eliminating the need for printing and mailing paper documents. Can help in keeping a better record of visitors. Can improve sales as a visitor can book, purchase and print out the electronic ticket any time 24 hours a day.
 
-#Project Description
+# Project Description
 The most common problem while booking tickets for monuments or museums is the waiting time or the chaos that is created in front of the ticket window.
 Also, a lot of paper is wasted in generating those tickets which totally goes to waste after the use.
 TicketBari.com generates a QR based e-ticket that eleminates all these problems while also providing features such as ease in bookings, seamless user experience and faster management of entries/exits.
