@@ -22,6 +22,8 @@ After selecting the city, the user will have to select the place i.e. the monume
 After location selection, the user will be entering the his/her details, date and time of visit, number of tickets, etc.
 Finally the user will be redirected to the payment gateway and after the successfull payment transaction, the user will receive his/her ticket QR code. 
 
+## Know more about our project
+### Devpost: https://devpost.com/software/ticketbhari-com?ref_content=my-projects-tab&ref_feature=my_projects
 ### Figma Link: https://www.figma.com/file/8taFXuJBBJICw1xqvQXF4J/TicketBari.com?node-id=0%3A1
 
 ## Team Members:
